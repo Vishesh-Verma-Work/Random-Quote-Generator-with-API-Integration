@@ -16,7 +16,7 @@ async function getquote() {
         let data = [quote,auth];
         return data;
     } catch (error) {
-        return "Sorry, there is an issue in the API right now :(";
+        para.innerText = `"Sorry, there is an issue in the API right now :("`;  
     }
 }
 
