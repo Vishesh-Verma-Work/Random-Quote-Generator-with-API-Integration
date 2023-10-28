@@ -3,16 +3,56 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    background-color: #ddfff7;
 }
 
 .main {
-
+    margin-top: 4rem;
+    /* border: 2px solid pink; */
+    /* background-color: rgba(68, 206, 26, 0.764); */
+    /* height: 12.5rem; */
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote {
+    color: black;
+    border-radius: 1rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+    /* height: 8rem; */
+    background-color: #93e1d8;
+    margin-bottom: 2rem;
+    padding: 3rem;
+}
 
+.quote p {
+    background-color: #93e1d8;
 }
 
 .writer {
-    
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: end;
+    /* background-color: aqua; */
+    margin-bottom: 2rem;
+    padding-right: 3rem;
+}
+
+.btn  button{
+    font-weight: 500;
+    letter-spacing: .23rem;
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    display: inline-block;
+    background-color: #3f7e77;
+    height: 3rem;
+    width: 23rem;
+    border-radius: .3rem;
+    /* align-items: center; */
 }
