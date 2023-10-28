@@ -10,7 +10,7 @@ btn.addEventListener("click", async () => {
 async function getquote() {
     try {
         let response = await axios.get("https://quote-garden.onrender.com/api/v3/quotes");
-        let random_num = Math.floor(Math.random()*5)+1;
+        let random_num = Math.floor(Math.random()*9);
         let quote = await response.data.data[random_num].quoteText;
         let auth = await response.data.data[random_num].quoteAuthor;
         let data = [quote,auth];
