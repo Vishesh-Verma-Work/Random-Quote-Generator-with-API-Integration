@@ -40,7 +40,7 @@
     text-align: end;
     /* background-color: aqua; */
     margin-bottom: 2rem;
-    padding-right: 3rem;
+    padding-right: 7rem;
 }
 
 .btn  button{
@@ -54,5 +54,33 @@
     height: 3rem;
     width: 23rem;
     border-radius: .3rem;
-    /* align-items: center; */
+    transition: 0ms;
+}
+
+.btn button:hover {
+    background-color: #1f403c;
+}
+
+@media (max-width : 500px) {
+    .quote {
+        border-radius: .23rem;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .main {
+        padding: 1.3rem;
+    }
+
+    .writer {
+        padding: 2rem;
+        font-size: .9rem;
+    }
+
+    .btn  button{
+        font-size: .9rem;
+        height: 2rem;
+        width: 12rem;
+    }
+
 }
